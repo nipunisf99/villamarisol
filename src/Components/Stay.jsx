@@ -11,7 +11,7 @@ function Stay() {
             <div className='main-grid'>
                 <section className='intro-txt'>
                     <div className='main-grid text-center'>
-                        <span className='pg-heading'>STAY</span>
+                        <span className='pg-heading'>STAY TEST</span>
                         <p className='p-styles'> Nestled along the serene coastline, our villa offers the ultimate beachside escape. Each stay is crafted for relaxation, with luxurious rooms, private pools, and exquisite dining experiences that bring the essence of the tropical surroundings to life. Whether you're lounging by the pool or dining by the ocean, every detail is designed to connect you with the calming rhythm of the sea. </p>
                     </div>
                 </section>
