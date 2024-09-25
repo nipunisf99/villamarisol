@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/villamarisol/static/css/main.346487e8.css",
-    "main.js": "/villamarisol/static/js/main.2f6bcbc7.js",
+    "main.js": "/villamarisol/static/js/main.f70dd74b.js",
     "static/js/453.3c01df39.chunk.js": "/villamarisol/static/js/453.3c01df39.chunk.js",
     "static/media/gal-4.jpg": "/villamarisol/static/media/gal-4.feed7f075a8bd4a69be8.jpg",
     "static/media/gal-6.jpg": "/villamarisol/static/media/gal-6.ea882d76545ff5bf7f57.jpg",
@@ -45,11 +45,11 @@
     "static/media/fa-v4compatibility.woff2": "/villamarisol/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/villamarisol/index.html",
     "main.346487e8.css.map": "/villamarisol/static/css/main.346487e8.css.map",
-    "main.2f6bcbc7.js.map": "/villamarisol/static/js/main.2f6bcbc7.js.map",
+    "main.f70dd74b.js.map": "/villamarisol/static/js/main.f70dd74b.js.map",
     "453.3c01df39.chunk.js.map": "/villamarisol/static/js/453.3c01df39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.346487e8.css",
-    "static/js/main.2f6bcbc7.js"
+    "static/js/main.f70dd74b.js"
   ]
 }
