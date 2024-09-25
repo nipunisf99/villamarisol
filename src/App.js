@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import ReactDOM from 'react-dom/client';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Home from './Components/Home';
+import Stay from './Components/Stay';
+import Gallery from './Components/Gallery';
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />     {/* Home page */}
+        <Route path="/stay" element={<Stay />} /> {/* About page */}
+        <Route path="/gallery" element={<Gallery />} /> {/* About page */}
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
