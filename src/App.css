@@ -72,6 +72,10 @@ nav{
 
 .margin-80{
   margin-top:80px;
+  @media (max-width: 768px)  {
+    margin-top:40px;
+  }
+  
 }
 
 .home-section{
@@ -391,6 +395,10 @@ nav{
   font-size: 128px;
   color: var(--primary);
   font-family: 'Expose-Medium';
+
+  @media (max-width: 768px)  {
+    font-size: 64px;
+  }
 }
 
 
